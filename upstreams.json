@@ -68,5 +68,15 @@
     "license": "LICENSE",
     "license_name": "MIT",
     "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+  },
+  {
+    "name": "baoyu-design",
+    "repository": "https://github.com/JimLiu/baoyu-design.git",
+    "ref": "main",
+    "source": "skills/baoyu-design",
+    "destination": "skills/baoyu-design",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245"
   }
 ]
