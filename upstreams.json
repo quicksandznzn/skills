@@ -50,6 +50,16 @@
     "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
   },
   {
+    "name": "grilling",
+    "repository": "https://github.com/mattpocock/skills.git",
+    "ref": "main",
+    "source": "skills/productivity/grilling",
+    "destination": "skills/grilling",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+  },
+  {
     "name": "grill-me",
     "repository": "https://github.com/mattpocock/skills.git",
     "ref": "main",
