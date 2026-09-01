@@ -82,7 +82,7 @@
   {
     "name": "ponytail",
     "repository": "https://github.com/DietrichGebert/ponytail.git",
-    "ref": "main",
+    "ref": "65db9025a7160aedef1212baf833c44455865499",
     "source": "skills/ponytail",
     "destination": "skills/ponytail",
     "license": "LICENSE",
