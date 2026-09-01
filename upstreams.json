@@ -78,5 +78,65 @@
     "license": "LICENSE",
     "license_name": "MIT",
     "commit": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245"
+  },
+  {
+    "name": "ponytail",
+    "repository": "https://github.com/DietrichGebert/ponytail.git",
+    "ref": "main",
+    "source": "skills/ponytail",
+    "destination": "skills/ponytail",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+  },
+  {
+    "name": "ponytail-audit",
+    "repository": "https://github.com/DietrichGebert/ponytail.git",
+    "ref": "main",
+    "source": "skills/ponytail-audit",
+    "destination": "skills/ponytail-audit",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+  },
+  {
+    "name": "ponytail-debt",
+    "repository": "https://github.com/DietrichGebert/ponytail.git",
+    "ref": "main",
+    "source": "skills/ponytail-debt",
+    "destination": "skills/ponytail-debt",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+  },
+  {
+    "name": "ponytail-gain",
+    "repository": "https://github.com/DietrichGebert/ponytail.git",
+    "ref": "main",
+    "source": "skills/ponytail-gain",
+    "destination": "skills/ponytail-gain",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+  },
+  {
+    "name": "ponytail-help",
+    "repository": "https://github.com/DietrichGebert/ponytail.git",
+    "ref": "main",
+    "source": "skills/ponytail-help",
+    "destination": "skills/ponytail-help",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+  },
+  {
+    "name": "ponytail-review",
+    "repository": "https://github.com/DietrichGebert/ponytail.git",
+    "ref": "main",
+    "source": "skills/ponytail-review",
+    "destination": "skills/ponytail-review",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
   }
 ]
