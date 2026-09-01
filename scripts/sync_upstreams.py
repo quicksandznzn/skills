@@ -16,7 +16,6 @@ from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "upstreams.json"
-README = ROOT / "README.md"
 NAME_RE = re.compile(r"^[a-z0-9-]{1,64}$")
 REQUIRED = {
     "name",
@@ -113,40 +112,6 @@ def checkout(repository: str, target: str, directory: Path) -> str:
     run("git", "fetch", "--quiet", "--depth", "1", "origin", target, cwd=directory)
     run("git", "checkout", "--quiet", "--detach", "FETCH_HEAD", cwd=directory)
     return run("git", "rev-parse", "HEAD", cwd=directory)
-
-
-def catalog(sources: list[dict[str, str]]) -> str:
-    rows = [
-        "<!-- upstreams:start -->",
-        "| Skill | 来源 / Source | 固定提交 / Pinned commit | License |",
-        "| --- | --- | --- | --- |",
-    ]
-    for source in sources:
-        repository = source["repository"].removesuffix(".git")
-        source_url = f"{repository}/tree/{source['ref']}/{source['source']}"
-        commit = source["commit"]
-        rows.append(
-            f"| `{source['name']}` | [{repository.removeprefix('https://github.com/')}]({source_url}) "
-            f"| [`{commit[:12]}`]({repository}/commit/{commit}) | {source['license_name']} |"
-        )
-    rows.append("<!-- upstreams:end -->")
-    return "\n".join(rows)
-
-
-def update_catalog(sources: list[dict[str, str]], check: bool) -> bool:
-    text = README.read_text(encoding="utf-8")
-    pattern = re.compile(r"<!-- upstreams:start -->.*?<!-- upstreams:end -->", re.DOTALL)
-    if not pattern.search(text):
-        fail(f"Missing upstream catalog markers in {README.name}")
-    updated = pattern.sub(catalog(sources), text, count=1)
-    if updated == text:
-        return False
-    if check:
-        fail(f"Upstream catalog is stale in {README.name}")
-    temporary = README.with_suffix(".md.tmp")
-    temporary.write_text(updated, encoding="utf-8")
-    os.replace(temporary, README)
-    return True
 
 
 def prepare(source: dict[str, str], target: str, temporary: Path) -> tuple[Path, str]:
@@ -251,7 +216,6 @@ def main() -> None:
 
     if changed:
         write_config(sources)
-    update_catalog(sources, args.check)
     validate_inventory()
 
 
