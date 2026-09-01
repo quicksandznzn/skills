@@ -128,5 +128,15 @@
     "license": "LICENSE",
     "license_name": "MIT",
     "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+  },
+  {
+    "name": "code-simplification",
+    "repository": "https://github.com/addyosmani/agent-skills.git",
+    "ref": "main",
+    "source": "skills/code-simplification",
+    "destination": "skills/code-simplification",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "d2c37ef6225dd8726cdd369a8030307f48592d26"
   }
 ]
