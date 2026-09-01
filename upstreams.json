@@ -8,5 +8,55 @@
     "license": "LICENSE",
     "license_name": "MIT",
     "commit": "ccbc15639c97057cbfcf32ecebc38ef716e4bb37"
+  },
+  {
+    "name": "code-review",
+    "repository": "https://github.com/mattpocock/skills.git",
+    "ref": "main",
+    "source": "skills/engineering/code-review",
+    "destination": "skills/code-review",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+  },
+  {
+    "name": "codebase-design",
+    "repository": "https://github.com/mattpocock/skills.git",
+    "ref": "main",
+    "source": "skills/engineering/codebase-design",
+    "destination": "skills/codebase-design",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+  },
+  {
+    "name": "implement",
+    "repository": "https://github.com/mattpocock/skills.git",
+    "ref": "main",
+    "source": "skills/engineering/implement",
+    "destination": "skills/implement",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+  },
+  {
+    "name": "tdd",
+    "repository": "https://github.com/mattpocock/skills.git",
+    "ref": "main",
+    "source": "skills/engineering/tdd",
+    "destination": "skills/tdd",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+  },
+  {
+    "name": "grill-me",
+    "repository": "https://github.com/mattpocock/skills.git",
+    "ref": "main",
+    "source": "skills/productivity/grill-me",
+    "destination": "skills/grill-me",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
   }
 ]
