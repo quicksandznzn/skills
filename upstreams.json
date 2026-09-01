@@ -138,5 +138,15 @@
     "license": "LICENSE",
     "license_name": "MIT",
     "commit": "d2c37ef6225dd8726cdd369a8030307f48592d26"
+  },
+  {
+    "name": "unslop",
+    "repository": "https://github.com/cursor/plugins.git",
+    "ref": "main",
+    "source": "pstack/skills/unslop",
+    "destination": "skills/unslop",
+    "license": "pstack/LICENSE",
+    "license_name": "MIT",
+    "commit": "b9ddc83c32972210b8a94d389130713e8eed346e"
   }
 ]
