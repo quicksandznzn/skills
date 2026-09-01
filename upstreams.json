@@ -1,0 +1,12 @@
+[
+  {
+    "name": "design-taste-frontend",
+    "repository": "https://github.com/Leonxlnx/taste-skill.git",
+    "ref": "main",
+    "source": "skills/taste-skill",
+    "destination": "skills/design-taste-frontend",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "ccbc15639c97057cbfcf32ecebc38ef716e4bb37"
+  }
+]

@@ -1,0 +1,60 @@
+name: Sync upstream skills
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-upstream-skills
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.20.0
+      - name: Sync mirrors
+        run: python3 scripts/sync_upstreams.py | tee "$RUNNER_TEMP/sync-summary.md"
+      - name: Validate discovery
+        run: |
+          python3 scripts/sync_upstreams.py --check
+          npx --yes skills@1.5.23 add . --list
+      - name: Create or update pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: feat/sync-upstream-skills
+        run: |
+          if git diff --quiet; then
+            echo "No upstream changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add README.md skills upstreams.json
+          git commit -m "chore: sync upstream skills"
+          git push --force origin "HEAD:refs/heads/$BRANCH"
+
+          {
+            echo "Automated upstream skill sync. Review before merging."
+            echo
+            cat "$RUNNER_TEMP/sync-summary.md"
+          } > "$RUNNER_TEMP/pr-body.md"
+
+          number="$(gh pr list --state open --head "$BRANCH" --json number --jq '.[0].number')"
+          if [ -n "$number" ]; then
+            gh pr edit "$number" --title "chore: sync upstream skills" --body-file "$RUNNER_TEMP/pr-body.md"
+          else
+            gh pr create --base main --head "$BRANCH" --title "chore: sync upstream skills" --body-file "$RUNNER_TEMP/pr-body.md"
+          fi
