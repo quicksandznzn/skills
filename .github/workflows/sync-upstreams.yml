@@ -48,7 +48,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           BRANCH: feat/sync-${{ matrix.skill }}
           SKILL_NAME: ${{ matrix.skill }}
-          PR_TITLE: chore(${{ matrix.skill }}): sync upstream skill
+          PR_TITLE: "chore(${{ matrix.skill }}): sync upstream skill"
         run: |
           if git diff --quiet; then
             echo "No upstream changes."
