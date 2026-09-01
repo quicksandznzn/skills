@@ -14,7 +14,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      skills: ${{ steps.skills.outputs.names }}
+    steps:
+      - uses: actions/checkout@v7
+      - id: skills
+        run: echo "names=$(jq -c '[.[].name]' upstreams.json)" >> "$GITHUB_OUTPUT"
+
   sync:
+    needs: discover
+    strategy:
+      fail-fast: false
+      matrix:
+        skill: ${{ fromJSON(needs.discover.outputs.skills) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -24,7 +38,7 @@ jobs:
         with:
           node-version: 22.20.0
       - name: Sync mirrors
-        run: python3 scripts/sync_upstreams.py | tee "$RUNNER_TEMP/sync-summary.md"
+        run: python3 scripts/sync_upstreams.py --skill "${{ matrix.skill }}" | tee "$RUNNER_TEMP/sync-summary.md"
       - name: Validate discovery
         run: |
           python3 scripts/sync_upstreams.py --check
@@ -32,7 +46,9 @@ jobs:
       - name: Create or update pull request
         env:
           GH_TOKEN: ${{ github.token }}
-          BRANCH: feat/sync-upstream-skills
+          BRANCH: feat/sync-${{ matrix.skill }}
+          SKILL_NAME: ${{ matrix.skill }}
+          PR_TITLE: chore(${{ matrix.skill }}): sync upstream skill
         run: |
           if git diff --quiet; then
             echo "No upstream changes."
@@ -42,19 +58,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
-          git add skills upstreams.json
-          git commit -m "chore: sync upstream skills"
+          git add "skills/$SKILL_NAME" upstreams.json
+          git commit -m "$PR_TITLE"
           git push --force origin "HEAD:refs/heads/$BRANCH"
 
           {
-            echo "Automated upstream skill sync. Review before merging."
+            echo "Automated upstream update for \`$SKILL_NAME\`."
+            echo
+            echo "## Changes"
             echo
             cat "$RUNNER_TEMP/sync-summary.md"
+            echo
+            echo "This pull request updates one skill only. Review the upstream changes before merging."
           } > "$RUNNER_TEMP/pr-body.md"
 
           number="$(gh pr list --state open --head "$BRANCH" --json number --jq '.[0].number')"
           if [ -n "$number" ]; then
-            gh pr edit "$number" --title "chore: sync upstream skills" --body-file "$RUNNER_TEMP/pr-body.md"
+            gh pr edit "$number" --title "$PR_TITLE" --body-file "$RUNNER_TEMP/pr-body.md"
           else
-            gh pr create --base main --head "$BRANCH" --title "chore: sync upstream skills" --body-file "$RUNNER_TEMP/pr-body.md"
+            gh pr create --base main --head "$BRANCH" --title "$PR_TITLE" --body-file "$RUNNER_TEMP/pr-body.md"
           fi

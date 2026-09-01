@@ -192,8 +192,12 @@ def write_config(sources: list[dict[str, str]]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="verify pinned mirrors without modifying files")
+    parser.add_argument("--skill", help="sync or verify one upstream skill")
     args = parser.parse_args()
-    sources = load_sources()
+    all_sources = load_sources()
+    sources = [source for source in all_sources if source["name"] == args.skill] if args.skill else all_sources
+    if args.skill and not sources:
+        fail(f"Unknown upstream skill: {args.skill}")
     changed = False
 
     for source in sources:
@@ -215,7 +219,7 @@ def main() -> None:
             print(f"- {source['name']}: `{old_commit}` -> `{commit}`")
 
     if changed:
-        write_config(sources)
+        write_config(all_sources)
     validate_inventory()
 
 
