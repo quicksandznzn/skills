@@ -7,7 +7,9 @@
     "destination": "skills/design-taste-frontend",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "ccbc15639c97057cbfcf32ecebc38ef716e4bb37"
+    "commit": "ccbc15639c97057cbfcf32ecebc38ef716e4bb37",
+    "purpose": "Design and build polished frontend pages without generic template styling.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "code-review",
@@ -17,7 +19,9 @@
     "destination": "skills/code-review",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "purpose": "Review code changes against repository standards and the originating specification.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "codebase-design",
@@ -27,7 +31,9 @@
     "destination": "skills/codebase-design",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "purpose": "Design deep modules with small interfaces, clear seams, and focused tests.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "implement",
@@ -37,7 +43,9 @@
     "destination": "skills/implement",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "purpose": "Implement work from an agreed specification or ticket set.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "tdd",
@@ -47,7 +55,9 @@
     "destination": "skills/tdd",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "purpose": "Build features and fix bugs with a red-green-refactor test cycle.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "grilling",
@@ -57,7 +67,9 @@
     "destination": "skills/grilling",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "purpose": "Stress-test a plan or decision through a structured, relentless interview.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "grill-me",
@@ -67,7 +79,9 @@
     "destination": "skills/grill-me",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76"
+    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "purpose": "Provide a shortcut that starts the grilling skill.",
+    "updated_at": "2026-08-24"
   },
   {
     "name": "baoyu-design",
@@ -77,7 +91,9 @@
     "destination": "skills/baoyu-design",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245"
+    "commit": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245",
+    "purpose": "Create polished HTML design artifacts, prototypes, documents, and slide decks.",
+    "updated_at": "2026-07-30"
   },
   {
     "name": "ponytail",
@@ -87,7 +103,9 @@
     "destination": "skills/ponytail",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "purpose": "Solve coding tasks with the smallest reliable implementation.",
+    "updated_at": "2026-08-07"
   },
   {
     "name": "ponytail-audit",
@@ -97,7 +115,9 @@
     "destination": "skills/ponytail-audit",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "purpose": "Audit an entire repository for code and dependencies that can be removed.",
+    "updated_at": "2026-08-07"
   },
   {
     "name": "ponytail-debt",
@@ -107,7 +127,9 @@
     "destination": "skills/ponytail-debt",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "purpose": "Collect deliberate ponytail shortcuts into a technical debt ledger.",
+    "updated_at": "2026-08-07"
   },
   {
     "name": "ponytail-gain",
@@ -117,7 +139,9 @@
     "destination": "skills/ponytail-gain",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "purpose": "Show benchmark results for ponytail's effect on code size, cost, and speed.",
+    "updated_at": "2026-08-07"
   },
   {
     "name": "ponytail-review",
@@ -127,7 +151,9 @@
     "destination": "skills/ponytail-review",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "purpose": "Review a code diff only for unnecessary complexity and removable code.",
+    "updated_at": "2026-08-07"
   },
   {
     "name": "code-simplification",
@@ -137,7 +163,9 @@
     "destination": "skills/code-simplification",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "d2c37ef6225dd8726cdd369a8030307f48592d26"
+    "commit": "d2c37ef6225dd8726cdd369a8030307f48592d26",
+    "purpose": "Refactor working code for clarity without changing its behavior.",
+    "updated_at": "2026-08-28"
   },
   {
     "name": "unslop",
@@ -147,6 +175,8 @@
     "destination": "skills/unslop",
     "license": "pstack/LICENSE",
     "license_name": "MIT",
-    "commit": "23a56e2dac2efd54788056db8eced26e371d7b5e"
+    "commit": "23a56e2dac2efd54788056db8eced26e371d7b5e",
+    "purpose": "Remove common AI writing patterns and replace them with clear, natural prose.",
+    "updated_at": "2026-09-01"
   }
 ]

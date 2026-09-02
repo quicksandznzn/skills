@@ -59,7 +59,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
-          git add "skills/$SKILL_NAME" upstreams.json
+          git add "skills/$SKILL_NAME" upstreams.json docs/upstreams.md
           git commit -m "$PR_TITLE"
           git push --force origin "HEAD:refs/heads/$BRANCH"
 
