@@ -1,6 +1,6 @@
 # skills
 
-A personal collection of Agent Skills sourced from the repositories tracked in [`upstreams.json`](./upstreams.json), installable with the [`skills`](https://github.com/vercel-labs/skills) CLI.
+A personal collection of Agent Skills. See [`upstreams.md`](./docs/upstreams.md).
 
 ## Install
 
