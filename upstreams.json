@@ -168,6 +168,18 @@
     "updated_at": "2026-08-28"
   },
   {
+    "name": "simplify-code",
+    "repository": "https://github.com/NousResearch/hermes-agent.git",
+    "ref": "main",
+    "source": "skills/software-development/simplify-code",
+    "destination": "skills/simplify-code",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "97f3229dfdc06779f348ab8e7bee043262c3aaa7",
+    "purpose": "Run four focused parallel reviewers to simplify recent code changes.",
+    "updated_at": "2026-09-03"
+  },
+  {
     "name": "unslop",
     "repository": "https://github.com/cursor/plugins.git",
     "ref": "main",
