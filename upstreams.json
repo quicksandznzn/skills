@@ -187,9 +187,9 @@
     "destination": "skills/unslop",
     "license": "pstack/LICENSE",
     "license_name": "MIT",
-    "commit": "23a56e2dac2efd54788056db8eced26e371d7b5e",
+    "commit": "e8d856f0273b42ebafe0ec3546bd645709e7c1b0",
     "purpose": "Remove common AI writing patterns and replace them with clear, natural prose.",
-    "updated_at": "2026-09-01"
+    "updated_at": "2026-09-07"
   },
   {
     "name": "show-me",
