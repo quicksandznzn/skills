@@ -156,18 +156,6 @@
     "updated_at": "2026-08-07"
   },
   {
-    "name": "code-simplification",
-    "repository": "https://github.com/addyosmani/agent-skills.git",
-    "ref": "main",
-    "source": "skills/code-simplification",
-    "destination": "skills/code-simplification",
-    "license": "LICENSE",
-    "license_name": "MIT",
-    "commit": "d2c37ef6225dd8726cdd369a8030307f48592d26",
-    "purpose": "Refactor working code for clarity without changing its behavior.",
-    "updated_at": "2026-08-28"
-  },
-  {
     "name": "simplify-code",
     "repository": "https://github.com/NousResearch/hermes-agent.git",
     "ref": "main",
