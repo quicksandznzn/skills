@@ -187,8 +187,8 @@
     "destination": "skills/show-me",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "3c2629142c5d437428269b1b722b08c0b87f574d",
+    "commit": "ca7c8088db69e315a8b2deea43820270457f8f3c",
     "purpose": "Explain the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.",
-    "updated_at": "2026-08-13"
+    "updated_at": "2026-09-17"
   }
 ]
