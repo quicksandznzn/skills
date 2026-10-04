@@ -115,9 +115,9 @@
     "destination": "skills/ponytail-audit",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "commit": "c982cd411abb53323c4baa1baa3c2f020b8d0b08",
     "purpose": "Audit an entire repository for code and dependencies that can be removed.",
-    "updated_at": "2026-08-07"
+    "updated_at": "2026-10-03"
   },
   {
     "name": "ponytail-debt",
