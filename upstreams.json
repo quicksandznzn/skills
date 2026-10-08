@@ -19,9 +19,9 @@
     "destination": "skills/code-review",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "commit": "f3fc5632f401156837ee3872f14fe33ccf1024ea",
     "purpose": "Review code changes against repository standards and the originating specification.",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-10-07"
   },
   {
     "name": "codebase-design",
