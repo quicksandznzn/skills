@@ -55,9 +55,9 @@
     "destination": "skills/tdd",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "commit": "b0618bc436ad893b3c5e84e55fba86586d34a404",
     "purpose": "Build features and fix bugs with a red-green-refactor test cycle.",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-10-08"
   },
   {
     "name": "grilling",
