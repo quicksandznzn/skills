@@ -151,9 +151,9 @@
     "destination": "skills/ponytail-review",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "552acd5efd0aeae2583a12efe39373d2f076f25e",
+    "commit": "9cc65d03aa2da1db7121b912d03596409ee340b8",
     "purpose": "Review a code diff only for unnecessary complexity and removable code.",
-    "updated_at": "2026-10-05"
+    "updated_at": "2026-10-08"
   },
   {
     "name": "simplify-code",
