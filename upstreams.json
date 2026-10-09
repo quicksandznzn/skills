@@ -103,9 +103,9 @@
     "destination": "skills/ponytail",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "commit": "9cc65d03aa2da1db7121b912d03596409ee340b8",
     "purpose": "Solve coding tasks with the smallest reliable implementation.",
-    "updated_at": "2026-08-07"
+    "updated_at": "2026-10-08"
   },
   {
     "name": "ponytail-audit",
