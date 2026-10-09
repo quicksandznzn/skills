@@ -55,9 +55,9 @@
     "destination": "skills/tdd",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+    "commit": "b0618bc436ad893b3c5e84e55fba86586d34a404",
     "purpose": "Build features and fix bugs with a red-green-refactor test cycle.",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-10-08"
   },
   {
     "name": "grilling",
@@ -115,9 +115,9 @@
     "destination": "skills/ponytail-audit",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "commit": "9cc65d03aa2da1db7121b912d03596409ee340b8",
     "purpose": "Audit an entire repository for code and dependencies that can be removed.",
-    "updated_at": "2026-08-07"
+    "updated_at": "2026-10-08"
   },
   {
     "name": "ponytail-debt",
@@ -139,9 +139,9 @@
     "destination": "skills/ponytail-gain",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "commit": "9cc65d03aa2da1db7121b912d03596409ee340b8",
     "purpose": "Show benchmark results for ponytail's effect on code size, cost, and speed.",
-    "updated_at": "2026-08-07"
+    "updated_at": "2026-10-08"
   },
   {
     "name": "ponytail-review",
