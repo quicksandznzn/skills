@@ -7,9 +7,9 @@
     "destination": "skills/design-taste-frontend",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "ccbc15639c97057cbfcf32ecebc38ef716e4bb37",
+    "commit": "d237dd399d57524945c0c81327da5da19f7a468d",
     "purpose": "Design and build polished frontend pages without generic template styling.",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-10-11"
   },
   {
     "name": "code-review",
@@ -175,9 +175,9 @@
     "destination": "skills/unslop",
     "license": "pstack/LICENSE",
     "license_name": "MIT",
-    "commit": "12d587dfb20741cafc376c42c696c5f6e2a64487",
+    "commit": "11713c683fe4add4fd403ea880580abbc9e0875f",
     "purpose": "Remove common AI writing patterns and replace them with clear, natural prose.",
-    "updated_at": "2026-09-23"
+    "updated_at": "2026-10-11"
   },
   {
     "name": "show-me",
