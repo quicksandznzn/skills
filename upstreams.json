@@ -127,9 +127,9 @@
     "destination": "skills/ponytail-debt",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "9cc65d03aa2da1db7121b912d03596409ee340b8",
+    "commit": "2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5",
     "purpose": "Collect deliberate ponytail shortcuts into a technical debt ledger.",
-    "updated_at": "2026-10-08"
+    "updated_at": "2026-10-13"
   },
   {
     "name": "ponytail-gain",
@@ -175,9 +175,9 @@
     "destination": "skills/unslop",
     "license": "pstack/LICENSE",
     "license_name": "MIT",
-    "commit": "11713c683fe4add4fd403ea880580abbc9e0875f",
+    "commit": "7845807642f9ef234a0ec5b4067fa3f11fd92a85",
     "purpose": "Remove common AI writing patterns and replace them with clear, natural prose.",
-    "updated_at": "2026-10-11"
+    "updated_at": "2026-10-12"
   },
   {
     "name": "show-me",
