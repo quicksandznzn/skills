@@ -190,5 +190,17 @@
     "commit": "ca7c8088db69e315a8b2deea43820270457f8f3c",
     "purpose": "Explain the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.",
     "updated_at": "2026-09-17"
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+    "ref": "main",
+    "source": ".claude/skills/ui-ux-pro-max",
+    "destination": "skills/ui-ux-pro-max",
+    "license": "LICENSE",
+    "license_name": "MIT",
+    "commit": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+    "purpose": "Provide searchable UI/UX design guidance, design systems, and stack-specific implementation recommendations.",
+    "updated_at": "2026-10-12"
   }
 ]
