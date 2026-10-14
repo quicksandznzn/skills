@@ -5,7 +5,7 @@ Dates are the upstream commit dates in UTC.
 
 | Skill | Purpose | Updated | Repository |
 | --- | --- | --- | --- |
-| [design-taste-frontend](https://github.com/Leonxlnx/taste-skill/tree/d237dd399d57524945c0c81327da5da19f7a468d/skills/taste-skill) | Design and build polished frontend pages without generic template styling. | 2026-10-11 | [GitHub](https://github.com/Leonxlnx/taste-skill) |
+| [design-taste-frontend](https://github.com/Leonxlnx/taste-skill/tree/a60a36dc2bb3bb77ccf17f2f62041f5ca8a458b9/skills/taste-skill) | Design and build polished frontend pages without generic template styling. | 2026-10-13 | [GitHub](https://github.com/Leonxlnx/taste-skill) |
 | [code-review](https://github.com/mattpocock/skills/tree/f3fc5632f401156837ee3872f14fe33ccf1024ea/skills/engineering/code-review) | Review code changes against repository standards and the originating specification. | 2026-10-07 | [GitHub](https://github.com/mattpocock/skills) |
 | [codebase-design](https://github.com/mattpocock/skills/tree/b0618bc436ad893b3c5e84e55fba86586d34a404/skills/engineering/codebase-design) | Design deep modules with small interfaces, clear seams, and focused tests. | 2026-10-08 | [GitHub](https://github.com/mattpocock/skills) |
 | [implement](https://github.com/mattpocock/skills/tree/f3fc5632f401156837ee3872f14fe33ccf1024ea/skills/engineering/implement) | Implement work from an agreed specification or ticket set. | 2026-10-07 | [GitHub](https://github.com/mattpocock/skills) |
