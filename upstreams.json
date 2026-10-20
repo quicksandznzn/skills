@@ -7,9 +7,9 @@
     "destination": "skills/design-taste-frontend",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "a9c73c3d5dbf401e3e47f86e7b41f29ede1687df",
+    "commit": "63aba5f43b5056758b15bbe7d683da8c86a7a7ad",
     "purpose": "Design and build polished frontend pages without generic template styling.",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-20"
   },
   {
     "name": "code-review",
