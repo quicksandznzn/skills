@@ -19,9 +19,9 @@
     "destination": "skills/code-review",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "f3fc5632f401156837ee3872f14fe33ccf1024ea",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
     "purpose": "Review code changes against repository standards and the originating specification.",
-    "updated_at": "2026-10-07"
+    "updated_at": "2026-10-29"
   },
   {
     "name": "codebase-design",
@@ -31,9 +31,9 @@
     "destination": "skills/codebase-design",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "b0618bc436ad893b3c5e84e55fba86586d34a404",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
     "purpose": "Design deep modules with small interfaces, clear seams, and focused tests.",
-    "updated_at": "2026-10-08"
+    "updated_at": "2026-10-29"
   },
   {
     "name": "implement",
@@ -67,9 +67,9 @@
     "destination": "skills/grilling",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "f3fc5632f401156837ee3872f14fe33ccf1024ea",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
     "purpose": "Stress-test a plan or decision through a structured, relentless interview.",
-    "updated_at": "2026-10-07"
+    "updated_at": "2026-10-29"
   },
   {
     "name": "grill-me",
@@ -91,9 +91,9 @@
     "destination": "skills/baoyu-design",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "6530033592bf7fa58bc1a5a2a2ad278da45213a9",
+    "commit": "0fd52fc77765b214cfcc2ced20b092b2969bb0b0",
     "purpose": "Create polished HTML design artifacts, prototypes, documents, and slide decks.",
-    "updated_at": "2026-09-23"
+    "updated_at": "2026-10-29"
   },
   {
     "name": "ponytail",
