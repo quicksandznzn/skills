@@ -26,6 +26,7 @@ jobs:
         with:
           node-version: 22.20.0
       - name: Sync mirrors
+        shell: bash
         run: python3 scripts/sync_upstreams.py | tee "$RUNNER_TEMP/sync-summary.md"
       - name: Validate discovery
         run: |

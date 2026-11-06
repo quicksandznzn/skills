@@ -87,13 +87,13 @@
     "name": "baoyu-design",
     "repository": "https://github.com/JimLiu/baoyu-design.git",
     "ref": "main",
-    "source": "skills/baoyu-design",
+    "source": "archive/baoyu-design",
     "destination": "skills/baoyu-design",
-    "license": "LICENSE",
-    "license_name": "MIT",
-    "commit": "0fd52fc77765b214cfcc2ced20b092b2969bb0b0",
+    "license": "NOTICE.md",
+    "license_name": "Mixed (MIT, Apache-2.0, unlicensed Anthropic material)",
+    "commit": "9c5253c002820d8dd4c9c31e9c8ca04b529a3e34",
     "purpose": "Create polished HTML design artifacts, prototypes, documents, and slide decks.",
-    "updated_at": "2026-10-29"
+    "updated_at": "2026-11-05"
   },
   {
     "name": "ponytail",
