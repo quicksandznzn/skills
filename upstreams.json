@@ -7,9 +7,9 @@
     "destination": "skills/design-taste-frontend",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "9b4bf937a1f69348126959c15d2f99a73e65699b",
+    "commit": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
     "purpose": "Design and build polished frontend pages without generic template styling.",
-    "updated_at": "2026-11-05"
+    "updated_at": "2026-11-07"
   },
   {
     "name": "code-review",
@@ -199,8 +199,8 @@
     "destination": "skills/ui-ux-pro-max",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
+    "commit": "4f2dbb67e64969a9a30ab00742f2d55d66ddec2b",
     "purpose": "Provide searchable UI/UX design guidance, design systems, and stack-specific implementation recommendations.",
-    "updated_at": "2026-11-05"
+    "updated_at": "2026-11-08"
   }
 ]
