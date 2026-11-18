@@ -175,9 +175,9 @@
     "destination": "skills/unslop",
     "license": "pstack/LICENSE",
     "license_name": "MIT",
-    "commit": "7845807642f9ef234a0ec5b4067fa3f11fd92a85",
+    "commit": "93b916d4a1e806507e22f4716b352fa91f2b227e",
     "purpose": "Remove common AI writing patterns and replace them with clear, natural prose.",
-    "updated_at": "2026-10-12"
+    "updated_at": "2026-11-17"
   },
   {
     "name": "show-me",
@@ -199,8 +199,8 @@
     "destination": "skills/ui-ux-pro-max",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "4f2dbb67e64969a9a30ab00742f2d55d66ddec2b",
+    "commit": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
     "purpose": "Provide searchable UI/UX design guidance, design systems, and stack-specific implementation recommendations.",
-    "updated_at": "2026-11-08"
+    "updated_at": "2026-11-16"
   }
 ]
