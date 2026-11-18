@@ -85,8 +85,8 @@
   },
   {
     "name": "baoyu-design",
-    "repository": "https://github.com/JimLiu/baoyu-design.git",
-    "ref": "main",
+    "repository": "https://github.com/hh0592821/baoyu-design.git",
+    "ref": "9c5253c002820d8dd4c9c31e9c8ca04b529a3e34",
     "source": "archive/baoyu-design",
     "destination": "skills/baoyu-design",
     "license": "NOTICE.md",
