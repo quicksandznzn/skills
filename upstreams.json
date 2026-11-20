@@ -163,9 +163,9 @@
     "destination": "skills/simplify-code",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "97f3229dfdc06779f348ab8e7bee043262c3aaa7",
+    "commit": "9f47677483d1b4de4d1a88d37b3b7ca18b18b215",
     "purpose": "Run four focused parallel reviewers to simplify recent code changes.",
-    "updated_at": "2026-09-03"
+    "updated_at": "2026-11-19"
   },
   {
     "name": "unslop",
@@ -199,8 +199,8 @@
     "destination": "skills/ui-ux-pro-max",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
+    "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
     "purpose": "Provide searchable UI/UX design guidance, design systems, and stack-specific implementation recommendations.",
-    "updated_at": "2026-11-16"
+    "updated_at": "2026-11-19"
   }
 ]
