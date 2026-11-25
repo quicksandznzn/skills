@@ -199,8 +199,8 @@
     "destination": "skills/ui-ux-pro-max",
     "license": "LICENSE",
     "license_name": "MIT",
-    "commit": "f2f7266b07805025421611656045e9b44b41e2eb",
+    "commit": "8db36338810d0942567b97ce439affd1619fcf31",
     "purpose": "Provide searchable UI/UX design guidance, design systems, and stack-specific implementation recommendations.",
-    "updated_at": "2026-11-24"
+    "updated_at": "2026-11-25"
   }
 ]
